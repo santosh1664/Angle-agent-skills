@@ -1,0 +1,15 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "angle-agent-skills",
+  "description": "Claude skills for NSE intraday trading through Angel One SmartAPI",
+  "owner": { "name": "santosh1664", "url": "https://github.com/santosh1664" },
+  "plugins": [
+    {
+      "name": "angel-one-trader",
+      "description": "11 skills: chart scanner, NSE news, entry timer, exit planner, 10,000-replay time machine, budget, risk gate, paper-first Angel One order executor, alerts, results analyst and insider (SEBI PIT) tracker.",
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://github.com/santosh1664/Angle-agent-skills"
+    }
+  ]
+}

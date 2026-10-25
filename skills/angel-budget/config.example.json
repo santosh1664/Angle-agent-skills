@@ -1,0 +1,39 @@
+{
+  "capital": 100000,
+  "max_loss_per_trade": 500,
+  "daily_loss_limit": 1500,
+  "max_trades_per_day": 3,
+  "max_position_pct": 50,
+  "max_order_value": 100000,
+  "cash_buffer_pct": 10,
+  "min_reward_risk": 1.5,
+  "mis_leverage": 1,
+  "entry_window": [
+    "09:30",
+    "14:30"
+  ],
+  "flat_by": "15:00",
+  "exchange": "NSE",
+  "product": "INTRADAY",
+  "paper": true,
+  "live_enabled": false,
+  "target_at_broker": false,
+  "allow_short": false,
+  "allow_fno": false,
+  "blocked": [],
+  "data_source": "auto",
+  "slippage_pct": 0.05,
+  "extra_holidays": [],
+  "universe": "nifty500",
+  "watchlist": [],
+  "charges": {
+    "brokerage_flat": 20.0,
+    "brokerage_pct": 0.1,
+    "brokerage_min": 5.0,
+    "stt_sell_pct": 0.025,
+    "exchange_txn_pct": 0.00297,
+    "sebi_per_crore": 10.0,
+    "stamp_buy_pct": 0.003,
+    "gst_pct": 18.0
+  }
+}
